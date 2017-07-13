@@ -10,6 +10,9 @@ syntax on
 "自动检测文件类型并加载相应的设置
 "filetype plugin indent on
 
+"回车自动输出注释符号
+set formatoptions=r
+
 "保存修改历史记录的行数
 set history=1000
 
@@ -77,3 +80,9 @@ set laststatus=2
 " \&ff ~> 文件格式 unix\mac\dos
 " 文件格式之前需要添加%完成转义，空格，竖线等特殊字符需要使用斜杠\完成转义。
 set statusline=%t\ %y\ format:\ %{&ff};\ [%c,%l]
+
+" 设置代码块默认收起
+"set fdm=indent
+
+" enable standard for javascript
+let g:syntastic_javascript_checkers = ['standard']
