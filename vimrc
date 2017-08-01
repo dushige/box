@@ -7,6 +7,11 @@ set nu
 "语法高亮
 syntax on
 
+set encoding=utf-8
+
+"显示全角字符
+set ambiwidth=double
+
 "自动检测文件类型并加载相应的设置
 "filetype plugin indent on
 
