@@ -30,11 +30,13 @@ then
 fi
 
 controllers=(
-  'user'
+  'contr1'
+  'contr2'
 )
 
 actions=(
-  'list get craete'
+  'act1_1 act1_2 act1_3'
+  'act2_1 act2_2 act2_3'
 )
 
 index=0
